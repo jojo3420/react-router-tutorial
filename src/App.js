@@ -1,10 +1,19 @@
 import React from 'react';
+import Router from './Router';
+// import {BrowserRouter} from "react-router-dom";
+import Nav from "components/Nav";
+import WithRouterTest from "components/WithRouterTest";
+
 
 function App() {
   return (
-    <div>
+    <>
       <h1>React router tutorial project</h1>
-    </div>
+      <Nav />
+      <Router />
+      <hr/>
+      {/*<WithRouterTest />*/}
+    </>
   );
 }
 
