@@ -1,11 +1,11 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
-import Home from 'components/Home';
-import About from 'components/About';
+import Home from './components/Home';
+import About from './components/About';
 // import Profile from 'components/Profile';
-import Profiles from 'components/Profiles';
-import QueryStringTest from "components/QueryStringTest";
-import HistoryApiTest from 'components/HistoryApiTest';
+import Profiles from './components/Profiles';
+import QueryStringTest from "./components/QueryStringTest";
+import HistoryApiTest from './components/HistoryApiTest';
 
 
 
